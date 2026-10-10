@@ -82,8 +82,9 @@ int main() {
 #endif
 
     curl_global_init(CURL_GLOBAL_DEFAULT);
-
+    // TODO : Thay url mà kaggle gen ra vào dòng bên dưới (thay giống định dạng nha)
     std::string ngrokBaseUrl = "https://crusader-wildly-urology.ngrok-free.dev";
+
     std::string prompt;
     std::getline(std::cin, prompt);
     std::cin.ignore();
