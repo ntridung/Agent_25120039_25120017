@@ -1,0 +1,19 @@
+# Thư mục build của CMake (rất quan trọng)
+build/
+bin/
+out/
+# File cấu hình riêng của VS Code (tuỳ chọn)
+.vscode/
+# File thực thi và object files
+*.o
+*.obj
+*.exe
+*.out
+
+
+
+
+
+
+
+
